@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import PropTypes from 'prop-types';
 
-const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <>
       <div className={styles.btn_container}>
@@ -20,7 +20,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
       </div>
     </>
   );
-};
+}
 
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string),
