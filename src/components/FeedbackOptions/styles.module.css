@@ -1,0 +1,30 @@
+.btn_container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 10px 5px;
+  color: #0f2d53;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: all 400ms;
+}
+
+.btn:hover {
+  background: #4994fd;
+  color: #ffffff;
+  border: none;
+  scale: 1.1;
+}
